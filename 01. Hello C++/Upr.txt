@@ -1,0 +1,90 @@
+#include <iostream>
+
+int main()
+{
+    /* int countApples;
+     int countPears;
+     int countBananas;
+     std::cout << "How many apples: ";
+     std::cin >> countApples;
+     std::cout << "How many pears: ";
+     std::cin >> countPears;
+     std::cout << "How many bananas: ";
+     std::cin >> countBananas;
+
+     std::cout << "Don’t forget to buy" << countApples << ", " << countPears << ", " << countBananas << std::endl; */
+
+    /*  unsigned width; unsigned length;
+      std::cout<< "Rectangle width: ";
+      std::cin >> width;
+      std::cout<< "Rectangle length: ";
+      std::cin>> length;
+      unsigned area= width*length;
+      unsigned perimeter = 2*(width+length);
+      std::cout<< "The rectangle area is " << area << "and the rectangle perimeter is" << perimeter<< std::endl; */
+
+    /* int firstNumber; int secondNumber, int reminder;
+     std::cout<<"Your first numebr: ";
+     std::cin>> firstNumber;
+     std::cout<<"Your second number: ";
+     std::cin>> secondNumber;
+     reminder = secondNumber%firstNumber;
+     if (reminder=0)
+     {
+         std::cout<< "true";
+     }
+     else {std::cout<< "false";} */
+
+    /* unsigned firstDigit,secondDigit, thirdDigit;
+     std::cout<< "Your first digit is: ";
+     std::cin>> firstDigit;
+     std::cout<< "Your second digit is: ";
+     std::cin>> secondDigit;
+     std::cout<< "Your third digit is: ";
+     std::cin>> thirdDigit;
+     unsigned lastNumber = firstDigit*100 + secondDigit*10 + thirdDigit;
+     std::cout<< lastNumber; */
+
+    /*unsigned threeDigitNumber, firstDigit, secondDigit, thirdDigit;
+    std::cout<< "Your three digit number: ";
+    std::cin>> threeDigitNumber;
+    firstDigit == threeDigitNumber/100;
+    secondDigit == (threeDigitNumber - firstDigit*100)/10;
+    thirdDigit == threeDigitNumber - firstDigit*100 - secondDigit*10;
+    unsigned sumThreeNumbers = firstDigit + secondDigit + thirdDigit;
+    std::cout<< firstDigit << secondDigit << thirdDigit;
+    std::cout<< sumThreeNumbers << std::endl;*/
+
+    /* unsigned firstDoubleDigitNumber, secondDoubleDigitNumber;
+     std::cout<< "Your first double digit number is: ";
+     std::cin>> firstDoubleDigitNumber   ;
+     std::cout<< "Your second double digit number is: ";
+     std::cin>> secondDoubleDigitNumber;
+     unsigned product = firstDoubleDigitNumber*secondDoubleDigitNumber;
+     unsigned lastDigitOfProduct = product%10;
+     if (lastDigitOfProduct%2=0)
+     {
+         std::cout<< "True";
+     }
+     else std::cout<< "False" << std::endl; */
+
+    /* unsigned eightDigitNumber, a, b, c, lastThreeDigit;
+     std::cout<< "Your eightDigitNumber: ";
+     std::cin>> eightDigitNumber;
+     a = eightDigitNumber%10000000;
+     b = eightDigitNumber%1000000;
+     c = eightDigitNumber%100000;
+     lastThreeDigit = c*100 + b*10 + a;
+     std::cout << "*****" << lastThreeDigit; */
+
+    /* unsigned seconds, seconds1, minutes, hours,  days;
+     std::cout<< "How many seconds: ";
+     std::cin>> seconds;
+     seconds1 = seconds;
+     minutes = seconds/60;
+     hours = minutes/60;
+     days = hours/24;
+     std::cout<< "Your number of second can be shown as: " << seconds1 <<
+     "seconds, " << minutes << "minutes, "    << hours << "hours, " << days
+      << "days." << std::endl; */
+}

@@ -4,7 +4,7 @@
 
 ![Theory](https://img.shields.io/badge/theory-4-blue?style=for-the-badge)
 ![Easy](https://img.shields.io/badge/easy-6-brightgreen?style=for-the-badge)
-![Medium](https://img.shields.io/badge/medium-5-yellow?style=for-the-badge)
+![Medium](https://img.shields.io/badge/medium-3-yellow?style=for-the-badge)
 ![Bonus](https://img.shields.io/badge/bonus-2-orange?style=for-the-badge)
 
 </div>
@@ -265,47 +265,7 @@ int main()
 ![Medium](https://img.shields.io/badge/level-Medium-yellow?style=flat-square)
 
 <details>
-<summary><h3>🟡 Задача 7 · От десетична в двоична бройна система</h3></summary>
-
-Напишете функция, която по дадено ***десетично*** число го преобразува в ***двоична*** бройна система.
-
-> 💡 Резултатът бързо става дълъг. Помислете какъв ***тип*** да върне функцията.
-
-<details>
-<summary><b>📥 Вход / 📤 Изход</b></summary>
-
-<br>
-
-| 📥 Вход | 📤 Изход |
-| :-----: | :------: |
-| `7623` | `1110111000111` |
-| `5` | `101` |
-
-</details>
-
-</details>
-
-<details>
-<summary><h3>🟡 Задача 8 · Сортиране на цифри</h3></summary>
-
-Напишете функция, която приема ***естествено*** число и връща ново число със същите цифри, но подредени <ins>**в намаляващ ред**</ins>.
-
-<details>
-<summary><b>📥 Вход / 📤 Изход</b></summary>
-
-<br>
-
-| 📥 Вход | 📤 Изход |
-| :-----: | :------: |
-| `463211` | `643211` |
-| `758701732` | `877753210` |
-
-</details>
-
-</details>
-
-<details>
-<summary><h3>🟡 Задача 9 · Задраскана цифра на стотиците</h3></summary>
+<summary><h3>🟡 Задача 7 · Задраскана цифра на стотиците</h3></summary>
 
 Напишете функция, която намира всички ***четирицифрени*** числа от интервала `[m, n]`, които след <ins>**задраскване на цифрата на стотиците**</ins> се делят на `11`.
 
@@ -349,7 +309,7 @@ No such a number!
 </details>
 
 <details>
-<summary><h3>🟡 Задача 10 · Миксиране на числа</h3></summary>
+<summary><h3>🟡 Задача 8 · Миксиране на числа</h3></summary>
 
 Напишете функция `mixNums`, която приема ***две*** числа и връща ново число, в което <ins>**се редуват**</ins> цифра от първото и цифра от второто, като се започва от ***последните*** цифри.
 
@@ -371,7 +331,7 @@ No such a number!
 </details>
 
 <details>
-<summary><h3>🟡 Задача 11 · Силно число</h3></summary>
+<summary><h3>🟡 Задача 9 · Силно число</h3></summary>
 
 Едно число е ***силно*** (strong number), ако <ins>**сумата от факториелите на цифрите му**</ins> е равна на самото число.
 

@@ -18,9 +18,6 @@ unsigned long long appendPair(unsigned long long number, unsigned long long digi
 }
 
 unsigned long long compressToNumber(const int arr[], size_t size) {
-    if (size == 0) {
-        return 0;
-    }
 
     unsigned long long result = 0;
     int current = arr[0];
